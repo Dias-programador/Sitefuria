@@ -1,6 +1,6 @@
 @font-face{
     font-family: "Montserrat";
-    src: url(/fonts/Montserrat-Regular.ttf);
+    src: url(../fonts/Montserrat-Regular.ttf);
     font-size: 1em
 }
 
@@ -45,9 +45,9 @@ header #logo{
     top: 20px;
 }
 header .header-black li a{
-    width: 32px;
-    height: 32px;
-    display: block;
+    width: 20%;
+    height: 5px;
+    display:inline-block;
 }
 #menu {
     margin: 12px 0px;
@@ -55,4 +55,38 @@ header .header-black li a{
 #menu li{
     display: inline-block;
     font-family: "Montserrat"
+}
+#menu li.search input{
+    background-color: rgba(0, 0, 0, 0.945);
+    color: white;
+    border-width: 3px;
+    border-color:goldenrod;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 6px;
+
+}
+#menu li.search ::-webkit-input-placeholder{
+    color: goldenrod;
+}
+#menu li.search button{
+    background-color: goldenrod;
+    border: none;
+    position:absolute;
+    right: 3px;
+    top: 7px;
+
+}
+#menu li.search button i{
+    Font-size:14px;
+    color:rgb(0, 0, 0);
+}
+#menu li a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+#menu li.searh .input-group{
+    top:8px;
 }
